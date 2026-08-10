@@ -1,0 +1,22 @@
+# Simple Calculator
+
+# Taking input from the user
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
+# Performing arithmetic operations
+addition = num1 + num2
+subtraction = num1 - num2
+multiplication = num1 * num2
+division = num1 / num2
+modulus = num1 % num2
+exponent = num1 ** num2
+
+# Displaying the results
+print("\n   Calculator Results   ")
+print("Addition       =", addition)
+print("Subtraction    =", subtraction)
+print("Multiplication =", multiplication)
+print("Division       =", division)
+print("Modulus        =", modulus)
+print("Exponent       =", exponent)
